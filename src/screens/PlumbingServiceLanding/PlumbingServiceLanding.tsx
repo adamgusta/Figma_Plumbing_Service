@@ -121,7 +121,7 @@ export const PlumbingServiceLanding = (): JSX.Element => {
               className="h-full w-full object-cover object-top transition-transform duration-700 hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--water-primary))]/80 via-transparent to-transparent" />
-            <div className="absolute bottom-20 left-8 flex gap-8 text-white">
+            <div className="absolute bottom-32 left-8 flex gap-8 text-white">
               <div className="flex flex-col">
                 <span className="text-3xl font-bold">15+</span>
                 <span className="text-xs uppercase tracking-widest text-white/60">Let praxe</span>
@@ -136,7 +136,7 @@ export const PlumbingServiceLanding = (): JSX.Element => {
 
         {/* Waves effect */}
         <div className="absolute bottom-0 w-full overflow-hidden leading-none">
-          <svg className="relative block w-[calc(100%+1.3px)] h-[150px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <svg className="relative block w-[calc(100%+1.3px)] h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C58,117.26,123.39,110.31,185.39,95.8,243.71,82.16,300.1,60.19,321.39,56.44Z" className="fill-[hsl(var(--water-surface))]"></path>
           </svg>
         </div>
