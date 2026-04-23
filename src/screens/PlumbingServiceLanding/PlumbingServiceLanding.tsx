@@ -73,7 +73,7 @@ export const PlumbingServiceLanding = (): JSX.Element => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-[hsl(var(--water-primary))] pt-20">
+      <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-[hsl(var(--water-primary))] pt-20 pb-32">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]" />
           <div className="absolute top-0 h-full w-full bg-gradient-to-b from-transparent via-[hsl(var(--water-primary))] to-[hsl(var(--water-primary))]" />
@@ -113,15 +113,15 @@ export const PlumbingServiceLanding = (): JSX.Element => {
         </div>
 
         {/* Hero Image */}
-        <div ref={addToRefs} className="reveal-on-scroll relative mt-20 w-full max-w-6xl px-6">
-          <div className="glass-card relative aspect-video overflow-hidden rounded-[2.5rem] shadow-2xl">
+        <div ref={addToRefs} className="reveal-on-scroll relative mt-12 w-full max-w-6xl px-6">
+          <div className="glass-card relative aspect-[16/10] md:aspect-video overflow-hidden rounded-[2.5rem] shadow-2xl">
             <img 
               src="/service_plumber_prague_1776947942869.png" 
               alt="Instalatér Praha" 
-              className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+              className="h-full w-full object-cover object-top transition-transform duration-700 hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--water-primary))]/80 via-transparent to-transparent" />
-            <div className="absolute bottom-8 left-8 flex gap-8 text-white">
+            <div className="absolute bottom-20 left-8 flex gap-8 text-white">
               <div className="flex flex-col">
                 <span className="text-3xl font-bold">15+</span>
                 <span className="text-xs uppercase tracking-widest text-white/60">Let praxe</span>
