@@ -59,7 +59,7 @@ export const PlumbingServiceLanding = (): JSX.Element => {
           </div>
           <div className="hidden items-center gap-8 md:flex">
             {['Služby', 'O nás', 'Reference', 'Kontakt'].map((item) => (
-              <a key={item} href={`#${item.toLowerCase()}`} className={`text-sm font-medium transition-colors ${isScrolled ? 'text-slate-600 hover:text-[hsl(var(--water-secondary))]' : 'text-white/80 hover:text-white'}`}>{item}</a>
+              <a key={item} href={`#${item.toLowerCase()}`} className={`text-sm font-medium transition-colors ${isScrolled ? 'text-slate-600 hover:text-[hsl(var(--water-secondary))]' : 'text-white hover:text-[hsl(var(--water-accent))]'}`}>{item}</a>
             ))}
             <a 
               href="tel:+420720000000"
@@ -89,14 +89,14 @@ export const PlumbingServiceLanding = (): JSX.Element => {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
               <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
             </span>
-            <span className="text-xs font-bold uppercase tracking-widest text-white/80">Nyní k dispozici po celé Praze</span>
+            <span className="text-xs font-bold uppercase tracking-widest text-white">Nyní k dispozici po celé Praze</span>
           </div>
           
           <h1 ref={addToRefs} className="reveal-on-scroll font-heading-1 text-5xl font-extrabold leading-tight text-white sm:text-7xl lg:text-8xl">
             Prémiový <span className="text-transparent bg-clip-text bg-gradient-to-r from-[hsl(var(--water-accent))] to-[hsl(var(--water-secondary))]">Instalatérský</span> Servis v Praze
           </h1>
           
-          <p ref={addToRefs} className="reveal-on-scroll mx-auto mt-8 max-w-2xl text-lg text-white/70 sm:text-xl">
+          <p ref={addToRefs} className="reveal-on-scroll mx-auto mt-8 max-w-2xl text-lg text-white sm:text-xl">
             Rychlost, čistota a profesionální přístup. Od drobných oprav až po kompletní rozvody. Dojezd do 45 minut v případě havárie.
           </p>
 
@@ -108,7 +108,7 @@ export const PlumbingServiceLanding = (): JSX.Element => {
               <Phone className="mr-3 h-7 w-7 text-[hsl(var(--water-accent))] group-hover:animate-bounce" />
               Kontaktovat technika - +420 720 000 000
             </a>
-            <p className="text-white/60 text-sm">Průměrný dojezd: 45 minut</p>
+            <p className="text-white text-sm">Průměrný dojezd: 45 minut</p>
           </div>
         </div>
 
