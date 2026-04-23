@@ -5,6 +5,28 @@
   .all-\[unset\] {
     all: unset;
   }
+
+  .glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+  }
+
+  .glass-button {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .glass-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+  }
 }
 
 @import url("https://fonts.googleapis.com/css?family=Onest:var(--heading-2-font-weight),var(--body-3-font-weight),var(--heading-3-font-weight),400,var(--navigation-font-weight),var(--body-1-bold-font-weight),var(--heading-1-font-weight),var(--body-1-font-weight),var(--caption-1-font-weight),500,var(--heading-6-font-weight),var(--heading-5-font-weight),var(--body-2-font-weight),var(--sub-heading-font-weight)|DM+Sans:var(--heading-4-font-weight)");
@@ -100,6 +122,17 @@
   --sub-heading-line-height: 100%;
   --text: rgba(131, 131, 131, 1);
   --white: rgba(255, 255, 255, 1);
+
+  /* Water Theme & Premium Colors (HSL) */
+  --water-primary: 210 100% 15%;
+  --water-secondary: 195 80% 45%;
+  --water-accent: 185 90% 50%;
+  --water-surface: 210 50% 98%;
+  
+  /* Glassmorphism Tokens */
+  --glass-bg: rgba(255, 255, 255, 0.15);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 :root {
@@ -128,6 +161,22 @@
 
 .animate-spin {
   animation: var(--animate-spin);
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-wave {
+  animation: wave 10s linear infinite;
+}
+
+.animate-ripple {
+  animation: ripple 4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 @keyframes spin {
@@ -206,6 +255,38 @@
 
   to {
     transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.8);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
   }
 }
 
