@@ -6,6 +6,8 @@ import { PragueLanding } from "./screens/PragueLanding/PragueLanding";
 import { BrandedPragueLanding } from "./screens/BrandedPragueLanding/BrandedPragueLanding";
 import { PlumbingServiceLanding } from "./screens/PlumbingServiceLanding/PlumbingServiceLanding";
 
+import { Analytics } from "@vercel/analytics/react";
+
 createRoot(document.getElementById("app") as HTMLElement).render(
   <StrictMode>
     <BrowserRouter>
@@ -17,5 +19,6 @@ createRoot(document.getElementById("app") as HTMLElement).render(
         <Route path="/plumbing-service" element={<PlumbingServiceLanding />} />
       </Routes>
     </BrowserRouter>
+    <Analytics />
   </StrictMode>,
 );
