@@ -114,20 +114,20 @@ export const PlumbingServiceLanding = (): JSX.Element => {
 
         {/* Hero Image */}
         <div ref={addToRefs} className="reveal-on-scroll relative mt-12 w-full max-w-6xl px-6">
-          <div className="glass-card relative aspect-[16/10] md:aspect-video overflow-hidden rounded-[2.5rem] shadow-2xl">
+          <div className="glass-card relative aspect-square md:aspect-[16/10] overflow-hidden rounded-[2.5rem] shadow-2xl">
             <img 
               src="/service_plumber_prague_1776947942869.png" 
               alt="Instalatér Praha" 
-              className="h-full w-full object-cover object-top transition-transform duration-700 hover:scale-105"
+              className="h-full w-full object-cover object-[center_top] transition-transform duration-700 hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--water-primary))]/80 via-transparent to-transparent" />
-            <div className="absolute bottom-32 left-8 flex gap-8 text-white">
+            <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-transparent" />
+            <div className="absolute top-8 left-8 flex gap-8 text-white">
               <div className="flex flex-col">
-                <span className="text-3xl font-bold">15+</span>
-                <span className="text-xs uppercase tracking-widest text-white/60">Let praxe</span>
+                <span className="text-4xl font-bold">15+</span>
+                <span className="text-xs uppercase tracking-widest text-white/80">Let praxe</span>
               </div>
               <div className="flex flex-col">
-                <span className="text-3xl font-bold">4.9/5</span>
+                <span className="text-4xl font-bold">4.9/5</span>
                 <span className="text-xs uppercase tracking-widest text-white/60">Hodnocení</span>
               </div>
             </div>
