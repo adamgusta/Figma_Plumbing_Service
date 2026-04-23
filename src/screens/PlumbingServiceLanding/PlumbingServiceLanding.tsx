@@ -221,6 +221,58 @@ export const PlumbingServiceLanding = (): JSX.Element => {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section id="reference" className="bg-slate-50 py-32 px-6">
+        <div className="mx-auto max-w-7xl">
+          <div ref={addToRefs} className="reveal-on-scroll text-center mb-20">
+            <h2 className="text-4xl font-bold text-[hsl(var(--water-primary))] sm:text-5xl">Co o nás říkají klienti</h2>
+            <div className="mx-auto mt-4 h-1 w-24 bg-[hsl(var(--water-accent))] rounded-full" />
+          </div>
+
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+            {[
+              {
+                name: "Marek",
+                city: "Praha",
+                text: "Pán přijel fakt rychle, když nám v neděli večer praskla trubka v koupelně a vytopili jsme sousedy. Všechno opravil, uklidil po sobě a cena byla férová, žádné pálky. Rozhodně doporučuji!",
+              },
+              {
+                name: "Lucie",
+                city: "Kladno",
+                text: "Potřebovali jsme kompletně novou instalaci vody a odpadů při rekonstrukci jádra. Skvělá domluva, práce odsýpala a výsledek je perfektní. Je vidět, že tomu pán fakt rozumí.",
+              },
+              {
+                name: "Jan",
+                city: "Beroun",
+                text: "Moc děkuji za rychlou pomoc s ucpaným dřezem v kuchyni. Technik byl velmi slušný a poradil mi i jak se o odpady lépe starat, aby se to neopakovalo. Super servis!",
+              },
+            ].map((review, idx) => (
+              <div 
+                key={idx} 
+                ref={addToRefs} 
+                className="reveal-on-scroll group bg-white p-8 rounded-[2rem] shadow-sm border border-slate-100 transition-all hover:shadow-xl hover:-translate-y-1"
+                style={{ transitionDelay: `${idx * 150}ms` }}
+              >
+                <div className="flex text-[hsl(var(--water-accent))] mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-5 w-5 fill-current" />
+                  ))}
+                </div>
+                <p className="text-slate-600 italic mb-6 leading-relaxed">
+                  "{review.text}"
+                </p>
+                <div>
+                  <div className="font-bold text-[hsl(var(--water-primary))] text-lg">{review.name}</div>
+                  <div className="text-slate-400 text-sm flex items-center gap-1">
+                    <MapPin className="h-3 w-3" /> {review.city}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Final */}
       <section id="kontakt" className="py-32 px-6">
         <div ref={addToRefs} className="reveal-on-scroll mx-auto max-w-5xl rounded-[3rem] bg-[hsl(var(--water-primary))] p-12 text-center text-white shadow-[0_20px_50px_rgba(3,3,2,0.3)] relative overflow-hidden">
