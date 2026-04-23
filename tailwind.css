@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Onest:var(--heading-2-font-weight),var(--body-3-font-weight),var(--heading-3-font-weight),400,var(--navigation-font-weight),var(--body-1-bold-font-weight),var(--heading-1-font-weight),var(--body-1-font-weight),var(--caption-1-font-weight),500,var(--heading-6-font-weight),var(--heading-5-font-weight),var(--body-2-font-weight),var(--sub-heading-font-weight)|DM+Sans:var(--heading-4-font-weight)");
 @tailwind components;
 @tailwind utilities;
 
@@ -28,8 +29,6 @@
     transform: translateY(-2px);
   }
 }
-
-@import url("https://fonts.googleapis.com/css?family=Onest:var(--heading-2-font-weight),var(--body-3-font-weight),var(--heading-3-font-weight),400,var(--navigation-font-weight),var(--body-1-bold-font-weight),var(--heading-1-font-weight),var(--body-1-font-weight),var(--caption-1-font-weight),500,var(--heading-6-font-weight),var(--heading-5-font-weight),var(--body-2-font-weight),var(--sub-heading-font-weight)|DM+Sans:var(--heading-4-font-weight)");
 
 :root {
   --accent-hover: rgba(255, 119, 43, 1);
