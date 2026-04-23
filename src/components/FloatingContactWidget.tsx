@@ -4,7 +4,7 @@ export const FloatingContactWidget = () => {
   return (
     <div className="fixed bottom-8 right-8 z-50 flex flex-col gap-4">
       {/* Status Badge */}
-      <div className="glass-card flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold text-app-primary shadow-lg animate-fade-in">
+      <div className="glass-card flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold text-white shadow-lg animate-fade-in">
         <span className="relative flex h-2 w-2">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
           <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
