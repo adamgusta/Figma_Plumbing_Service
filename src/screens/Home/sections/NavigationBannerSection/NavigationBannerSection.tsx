@@ -1,17 +1,17 @@
 import { Button } from "../../../../components/ui/button";
 
 const topBarItems = [
-  { type: "text", value: "+62 864 6444 2222" },
+  { type: "text", value: "+420 720 000 000" },
   { type: "divider", value: "/line-2-2.svg" },
-  { type: "text", value: "hi@yourdomain.com" },
+  { type: "text", value: "info@instalater-praha.cz" },
 ] as const;
 
 const navigationItems = [
-  "Home",
-  "About Us",
-  "Services",
-  "Projects",
-  "Contact Us",
+  "Domů",
+  "O nás",
+  "Služby",
+  "Projekty",
+  "Kontakt",
 ] as const;
 
 export const NavigationBannerSection = (): JSX.Element => {
@@ -51,7 +51,7 @@ export const NavigationBannerSection = (): JSX.Element => {
               src="/book-open.svg"
             />
             <span className="font-navigation text-[length:var(--navigation-font-size)] font-[number:var(--navigation-font-weight)] leading-[var(--navigation-line-height)] tracking-[var(--navigation-letter-spacing)] whitespace-nowrap [font-style:var(--navigation-font-style)]">
-              Book Now
+              Objednat Službu
             </span>
           </Button>
         </div>
@@ -59,7 +59,7 @@ export const NavigationBannerSection = (): JSX.Element => {
       <div className="flex w-full items-center justify-center px-4 pb-6 pt-8 lg:px-0">
         <div className="flex w-full max-w-[1140px] items-center justify-between gap-8">
           <h1 className="mt-[-1.00px] whitespace-nowrap [font-family:'Onest',Helvetica] text-5xl font-medium leading-[67.2px] tracking-[0] text-white">
-            Plumbing
+            Instalatér
           </h1>
           <nav aria-label="Section navigation">
             <ul className="flex flex-wrap items-center gap-5">

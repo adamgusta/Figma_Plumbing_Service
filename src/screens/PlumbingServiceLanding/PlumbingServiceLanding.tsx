@@ -85,7 +85,7 @@ export const PlumbingServiceLanding = (): JSX.Element => {
               className="glass-button group inline-flex items-center justify-center rounded-2xl px-12 py-5 font-heading-4 text-xl text-white shadow-2xl hover:scale-105 active:scale-95"
             >
               <Phone className="mr-3 h-7 w-7 text-[hsl(var(--water-accent))] group-hover:animate-bounce" />
-              Kontaktovat technika - +420 XXX XXX XXX
+              Kontaktovat technika - +420 720 000 000
             </a>
             <p className="mt-4 text-white/60 text-sm">Rychlý dojezd po celé Praze</p>
           </div>
@@ -203,7 +203,7 @@ export const PlumbingServiceLanding = (): JSX.Element => {
           >
             <div className="absolute inset-0 h-full w-full animate-shimmer bg-gradient-to-r from-transparent via-white/40 to-transparent" style={{ backgroundSize: '200% 100%' }} />
             <Phone className="mr-3 h-7 w-7 transition-transform group-hover:rotate-12" />
-            <span className="relative">Zavolat technika - +420 XXX XXX XXX</span>
+            <span className="relative">Zavolat technika - +420 720 000 000</span>
           </a>
         </div>
       </section>

@@ -3,19 +3,19 @@ import { Separator } from "../../../../components/ui/separator";
 
 const advantageItems = [
   {
-    title: "Expertise & Experience",
+    title: "Odbornost a zkušenost",
     description:
-      "Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper sed senectus sit ipsum mollis. Sit.",
+      "Máme za sebou stovky úspěšných realizací a letitou praxi v oboru.",
   },
   {
-    title: "Quality Workmanship",
+    title: "Kvalitní zpracování",
     description:
-      "Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper sed senectus sit ipsum mollis. Sit.",
+      "Používáme jen prověřené materiály a dbáme na precizní provedení každého detailu.",
   },
   {
-    title: "Transparent Pricing",
+    title: "Transparentní ceny",
     description:
-      "Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper sed senectus sit ipsum mollis. Sit.",
+      "U nás vždy víte, kolik zaplatíte. Žádné skryté poplatky ani nepříjemná překvapení.",
   },
 ];
 
@@ -32,11 +32,11 @@ export const CompetitiveAdvantagesSection = (): JSX.Element => {
             <div className="inline-flex items-center gap-3.5">
               <img className="h-5 w-px" alt="Line" src="/line-8.svg" />
               <p className="w-fit whitespace-nowrap font-sub-heading text-[length:var(--sub-heading-font-size)] font-[number:var(--sub-heading-font-weight)] leading-[var(--sub-heading-line-height)] tracking-[var(--sub-heading-letter-spacing)] text-text [font-style:var(--sub-heading-font-style)]">
-                Why Choose Us
+                Proč si vybrat nás
               </p>
             </div>
             <h2 className="max-w-[568px] font-heading-2 text-[length:var(--heading-2-font-size)] font-[number:var(--heading-2-font-weight)] leading-[var(--heading-2-line-height)] tracking-[var(--heading-2-letter-spacing)] text-white [font-style:var(--heading-2-font-style)]">
-              Your Best Choice for Plumbing Solutions
+              Vaše nejlepší volba pro instalatérská řešení
             </h2>
           </div>
           <div className="flex flex-col items-start lg:items-end">
@@ -52,7 +52,7 @@ export const CompetitiveAdvantagesSection = (): JSX.Element => {
               </span>
             </div>
             <p className="w-fit whitespace-nowrap font-body-1 text-[length:var(--body-1-font-size)] font-[number:var(--body-1-font-weight)] leading-[var(--body-1-line-height)] tracking-[var(--body-1-letter-spacing)] text-gray-1 [font-style:var(--body-1-font-style)]">
-              Years of Experience
+              Let zkušeností
             </p>
           </div>
         </header>

@@ -2,15 +2,15 @@ import { Button } from "../../../../components/ui/button";
 import { Separator } from "../../../../components/ui/separator";
 
 const steps = [
-  { number: "01", label: "Contact Us" },
-  { number: "02", label: "Consultation" },
-  { number: "03", label: "Scheduling" },
-  { number: "05", label: "Plumbing Service" },
+  { number: "01", label: "Kontaktujte Nás" },
+  { number: "02", label: "Konzultace" },
+  { number: "03", label: "Plánování" },
+  { number: "05", label: "Instalatérské Práce" },
 ];
 
 const stats = [
-  { value: "1200+", label: "Happy Customer" },
-  { value: "600+", label: "Work Completed" },
+  { value: "1200+", label: "Spokojených Zákazníků" },
+  { value: "600+", label: "Dokončených Projektů" },
 ];
 
 export const HeroIntroSection = (): JSX.Element => {
@@ -20,18 +20,17 @@ export const HeroIntroSection = (): JSX.Element => {
         <header className="flex flex-col items-start">
           <div className="flex flex-col items-start gap-6">
             <h1 className="w-full max-w-[367px] font-heading-1 text-[length:var(--heading-1-font-size)] font-[number:var(--heading-1-font-weight)] leading-[var(--heading-1-line-height)] tracking-[var(--heading-1-letter-spacing)] text-app-primary [font-style:var(--heading-1-font-style)]">
-              Plumbing Solutions You Can Rely On
+              Instalatérská Řešení, Na Která Se Můžete Spolehnout
             </h1>
             <p className="w-full max-w-[277px] font-body-2 text-[length:var(--body-2-font-size)] font-[number:var(--body-2-font-weight)] leading-[var(--body-2-line-height)] tracking-[var(--body-2-letter-spacing)] text-app-primary [font-style:var(--body-2-font-style)]">
-              Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper
-              sed senectus sit ipsum mollis. Sit.
+              Poskytujeme špičkové instalatérské služby v celé Praze. Od drobných oprav až po kompletní rozvody.
             </p>
           </div>
           <Button
             type="button"
             className="mt-12 h-auto rounded-[15px] bg-app-accent px-10 py-4 font-body-2 text-[length:var(--body-2-font-size)] font-[number:var(--body-2-font-weight)] leading-[var(--body-2-line-height)] tracking-[var(--body-2-letter-spacing)] text-white shadow-none hover:bg-[color:var(--accent-hover)] [font-style:var(--body-2-font-style)]"
           >
-            Get Started
+            Začít Hned
           </Button>
           <div className="mt-[74px] flex w-full max-w-[341px] items-center gap-8 sm:gap-11">
             {stats.map((stat, index) => (
@@ -67,7 +66,7 @@ export const HeroIntroSection = (): JSX.Element => {
             <div className="inline-flex items-center gap-2.5">
               <span className="block h-4 w-4 rounded-lg bg-app-accent" />
               <h2 className="whitespace-nowrap font-heading-6 text-[length:var(--heading-6-font-size)] font-[number:var(--heading-6-font-weight)] leading-[var(--heading-6-line-height)] tracking-[var(--heading-6-letter-spacing)] text-app-primary [font-style:var(--heading-6-font-style)]">
-                How It Works
+                Jak To Funguje
               </h2>
             </div>
             <img
@@ -76,8 +75,7 @@ export const HeroIntroSection = (): JSX.Element => {
               src="/line-2-1.svg"
             />
             <p className="w-full max-w-[270px] font-body-2 text-[length:var(--body-2-font-size)] font-[number:var(--body-2-font-weight)] leading-[var(--body-2-line-height)] tracking-[var(--body-2-letter-spacing)] text-text [font-style:var(--body-2-font-style)]">
-              Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper
-              sed senectus sit ipsum mollis. Sit.
+              Náš proces je jednoduchý a transparentní. Od prvního hovoru až po finální kontrolu odvedené práce.
             </p>
           </div>
           <nav

@@ -3,12 +3,12 @@ import { Card, CardContent } from "../../../../components/ui/card";
 
 const projectCards = [
   {
-    title: "Commercial Pipe Upgrade",
+    title: "Rekonstrukce komerčních rozvodů",
     className: "aspect-[692/356]",
     innerClassName: "h-full w-full bg-app-secondary",
   },
   {
-    title: "",
+    title: "Havarijní oprava potrubí",
     className: "aspect-[428/356]",
     innerClassName: "h-full w-full bg-app-secondary",
   },
@@ -23,17 +23,16 @@ export const ProjectsShowcaseSection = (): JSX.Element => {
             <div className="inline-flex items-center gap-3.5">
               <img className="h-5 w-px" alt="Line" src="/line-8.svg" />
               <span className="font-sub-heading text-[length:var(--sub-heading-font-size)] font-[number:var(--sub-heading-font-weight)] leading-[var(--sub-heading-line-height)] tracking-[var(--sub-heading-letter-spacing)] text-text [font-style:var(--sub-heading-font-style)]">
-                Projects
+                Projekty
               </span>
             </div>
             <h2 className="max-w-[504px] font-heading-2 text-[length:var(--heading-2-font-size)] font-[number:var(--heading-2-font-weight)] leading-[var(--heading-2-line-height)] tracking-[var(--heading-2-letter-spacing)] text-app-primary [font-style:var(--heading-2-font-style)]">
-              Latest Projects
+              Poslední Projekty
             </h2>
           </div>
           <div className="border-l border-[#5c6cff] pl-5 lg:mt-10">
             <p className="max-w-[428px] font-body-1 text-[length:var(--body-1-font-size)] font-[number:var(--body-1-font-weight)] leading-[var(--body-1-line-height)] tracking-[var(--body-1-letter-spacing)] text-text [font-style:var(--body-1-font-style)]">
-              Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper
-              sed senectus sit ipsum mollis. Sit.
+              Ukázka našich nedávných prací pro spokojené zákazníky v Praze a okolí.
             </p>
           </div>
         </header>
@@ -55,10 +54,10 @@ export const ProjectsShowcaseSection = (): JSX.Element => {
         </div>
         <footer className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <h3 className="font-heading-5 text-[length:var(--heading-5-font-size)] font-[number:var(--heading-5-font-weight)] leading-[var(--heading-5-line-height)] tracking-[var(--heading-5-letter-spacing)] text-app-primary [font-style:var(--heading-5-font-style)]">
-            Commercial Pipe Upgrade
+            Rekonstrukce komerčních rozvodů
           </h3>
           <Button className="h-auto self-start rounded-[15px] bg-app-accent px-10 py-4 font-body-2 text-[length:var(--body-2-font-size)] font-[number:var(--body-2-font-weight)] leading-[var(--body-2-line-height)] tracking-[var(--body-2-letter-spacing)] text-white hover:bg-accent-hover [font-style:var(--body-2-font-style)] sm:self-auto">
-            See all
+            Zobrazit vše
           </Button>
         </footer>
       </div>

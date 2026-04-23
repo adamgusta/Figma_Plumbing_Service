@@ -3,44 +3,44 @@ import { Separator } from "../../../../components/ui/separator";
 
 const services = [
   {
-    title: "Leak Detection",
+    title: "Detekce úniků",
     description:
-      "Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper sed senectus sit ipsum mollis. Sit.",
+      "Rychle a přesně najdeme místo úniku vody v bytech i komerčních prostorách.",
     iconSrc: "/icon-2.svg",
     iconClassName: "w-[55.5px] h-[55px]",
   },
   {
-    title: "Drain Cleaning",
+    title: "Čištění odpadů",
     description:
-      "Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper sed senectus sit ipsum mollis. Sit.",
+      "Profesionální čištění ucpaných dřezů, toalet a kanalizačních potrubí.",
     iconSrc: "/icon-4.svg",
     iconClassName: "w-[55.5px] h-[55px]",
   },
   {
-    title: "Pipe Repair",
+    title: "Opravy potrubí",
     description:
-      "Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper sed senectus sit ipsum mollis. Sit.",
+      "Opravujeme prasklé stoupačky, netěsnící spoje a poškozené vodovodní rozvody.",
     iconSrc: "/icon-6.svg",
     iconClassName: "w-[55.5px] h-[55px]",
   },
   {
-    title: "Pipe Replacement",
+    title: "Výměna rozvodů",
     description:
-      "Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper sed senectus sit ipsum mollis. Sit.",
+      "Kompletní rekonstrukce vodovodních a odpadních systémů v domech a bytech.",
     iconSrc: "/icon-5.svg",
     iconClassName: "w-[55px] h-[55px]",
   },
   {
-    title: "Regular Service",
+    title: "Pravidelný servis",
     description:
-      "Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper sed senectus sit ipsum mollis. Sit.",
+      "Preventivní kontroly a údržba vašich instalatérských systémů pro klid na duši.",
     iconSrc: "/icon-3.svg",
     iconClassName: "w-[55px] h-[55px]",
   },
   {
-    title: "Fixture Installation",
+    title: "Instalace zařizovacích předmětů",
     description:
-      "Id sagittis adipiscing viverra ut viverra eu duis. Sit ullamcorper sed senectus sit ipsum mollis. Sit.",
+      "Montáž baterií, toalet, umyvadel a sprchových koutů s důrazem na detail.",
     iconSrc: "/icon-7.svg",
     iconClassName: "w-[55.5px] h-[55px]",
   },
@@ -54,11 +54,11 @@ export const ServicesGridSection = (): JSX.Element => {
           <div className="inline-flex items-center gap-3.5">
             <img className="h-5 w-px" alt="Line" src="/line-8.svg" />
             <p className="relative w-fit whitespace-nowrap font-sub-heading text-[length:var(--sub-heading-font-size)] font-[number:var(--sub-heading-font-weight)] leading-[var(--sub-heading-line-height)] tracking-[var(--sub-heading-letter-spacing)] text-text [font-style:var(--sub-heading-font-style)]">
-              Our Services
+              Naše Služby
             </p>
           </div>
           <h2 className="w-full max-w-[610px] font-heading-2 text-[length:var(--heading-2-font-size)] font-[number:var(--heading-2-font-weight)] leading-[var(--heading-2-line-height)] tracking-[var(--heading-2-letter-spacing)] text-app-primary [font-style:var(--heading-2-font-style)] max-md:text-[40px] max-sm:text-[32px]">
-            Quality Plumbing Services We Provide
+            Kvalitní Instalatérské Služby, Které Poskytujeme
           </h2>
         </header>
         <div className="mt-[86px] grid w-full grid-cols-1 overflow-hidden bg-transparent sm:grid-cols-2 lg:grid-cols-3">

@@ -3,10 +3,10 @@ import { Progress } from "../../../../components/ui/progress";
 import { Separator } from "../../../../components/ui/separator";
 
 const expertiseItems = [
-  { title: "Leak Detection", value: 90 },
-  { title: "Pipe Repair", value: 85 },
-  { title: "Emergency Plumbing", value: 90 },
-  { title: "Drain Cleaning", value: 85 },
+  { title: "Detekce úniků", value: 90 },
+  { title: "Opravy potrubí", value: 85 },
+  { title: "Havarijní služba", value: 90 },
+  { title: "Čištění odpadů", value: 85 },
 ];
 
 export const ExpertiseStatsSection = (): JSX.Element => {
@@ -18,11 +18,11 @@ export const ExpertiseStatsSection = (): JSX.Element => {
             <div className="inline-flex items-center gap-3.5">
               <img className="h-5 w-px" alt="Line" src="/line-8.svg" />
               <p className="font-sub-heading text-[length:var(--sub-heading-font-size)] font-[number:var(--sub-heading-font-weight)] leading-[var(--sub-heading-line-height)] tracking-[var(--sub-heading-letter-spacing)] whitespace-nowrap text-text [font-style:var(--sub-heading-font-style)]">
-                Expertise
+                Odbornost
               </p>
             </div>
             <h2 className="max-w-[504px] font-heading-2 text-[length:var(--heading-2-font-size)] font-[number:var(--heading-2-font-weight)] leading-[var(--heading-2-line-height)] tracking-[var(--heading-2-letter-spacing)] text-app-primary [font-style:var(--heading-2-font-style)] max-md:text-4xl">
-              Expertise in Plumbing Excellence
+              Špičková Odbornost v Instalatérství
             </h2>
           </header>
           <div className="mt-8 flex w-full flex-col items-start gap-5 sm:flex-row sm:items-end lg:mt-[42px]">
@@ -40,12 +40,12 @@ export const ExpertiseStatsSection = (): JSX.Element => {
                   </span>
                 </p>
                 <h3 className="w-fit font-body-1-bold text-[length:var(--body-1-bold-font-size)] font-[number:var(--body-1-bold-font-weight)] leading-[var(--body-1-bold-line-height)] tracking-[var(--body-1-bold-letter-spacing)] whitespace-nowrap text-app-primary [font-style:var(--body-1-bold-font-style)]">
-                  Modern Equipment
+                  Moderní Vybavení
                 </h3>
               </div>
               <img className="h-px w-[270px]" alt="Line" src="/line-2-1.svg" />
               <p className="w-[270px] font-body-2 text-[length:var(--body-2-font-size)] font-[number:var(--body-2-font-weight)] leading-[var(--body-2-line-height)] tracking-[var(--body-2-letter-spacing)] text-text [font-style:var(--body-2-font-style)]">
-                Sit ullamcorper sed senectus sit ipsum mollis. Sit.
+                Používáme nejmodernější technologie pro diagnostiku a opravy.
               </p>
             </article>
           </div>

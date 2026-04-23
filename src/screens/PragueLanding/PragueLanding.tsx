@@ -69,7 +69,7 @@ export const PragueLanding = (): JSX.Element => {
           className="mt-10 inline-block rounded-lg bg-[#4a90e2] px-8 py-4 text-xl font-bold text-white transition-colors hover:bg-[#3a7bc8]"
         >
           <Phone className="mr-2 inline h-6 w-6" />
-          Zavolat technika hned - +420 XXX XXX XXX
+          Zavolat technika hned - +420 720 000 000
         </a>
       </section>
 
@@ -193,7 +193,7 @@ export const PragueLanding = (): JSX.Element => {
           className="inline-block rounded-lg bg-[#4a90e2] px-8 py-4 text-xl font-bold text-white transition-colors hover:bg-[#3a7bc8]"
         >
           <Phone className="mr-2 inline h-6 w-6" />
-          Zavolat technika hned - +420 XXX XXX XXX
+          Zavolat technika hned - +420 720 000 000
         </a>
       </section>
 

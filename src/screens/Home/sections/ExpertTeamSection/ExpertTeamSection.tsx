@@ -2,21 +2,21 @@ import { Card, CardContent } from "../../../../components/ui/card";
 
 const teamMembers = [
   {
-    name: "Eric T. Shields",
-    role: "Plumber",
+    name: "Erik Šíld",
+    role: "Instalatér",
     imageWrapperClassName: "justify-start",
     imageClassName: "w-[886px] h-[591px] -ml-[163px] bg-app-secondary",
   },
   {
-    name: "Timothy Beus",
-    role: "Plumber",
+    name: "Tymotej Beus",
+    role: "Instalatér",
     imageWrapperClassName: "items-end justify-end",
     imageClassName:
       "w-[1106px] h-[739px] -mr-[198px] -mb-[280px] bg-app-secondary",
   },
   {
-    name: "Louis J. Proulx",
-    role: "Plumber",
+    name: "Ludvík Prolux",
+    role: "Instalatér",
     imageWrapperClassName: "justify-start",
     imageClassName:
       "w-[836px] h-[1253px] -mt-[202px] -ml-[236px] bg-app-secondary",
@@ -31,16 +31,14 @@ export const ExpertTeamSection = (): JSX.Element => {
           <div className="inline-flex items-center gap-3.5">
             <img className="h-5 w-px" alt="Line" src="/line-8.svg" />
             <p className="w-fit whitespace-nowrap font-sub-heading text-[length:var(--sub-heading-font-size)] font-[number:var(--sub-heading-font-weight)] leading-[var(--sub-heading-line-height)] tracking-[var(--sub-heading-letter-spacing)] text-text [font-style:var(--sub-heading-font-style)]">
-              Our Team
+              Náš Tým
             </p>
           </div>
           <h2 className="max-w-[625px] font-heading-2 text-[length:var(--heading-2-font-size)] font-[number:var(--heading-2-font-weight)] leading-[var(--heading-2-line-height)] tracking-[var(--heading-2-letter-spacing)] text-app-primary [font-style:var(--heading-2-font-style)]">
-            Meet Expert Plumbing
+            Seznamte se s Našimi Experty
           </h2>
           <p className="max-w-[793px] font-body-2 text-[length:var(--body-2-font-size)] font-[number:var(--body-2-font-weight)] leading-[var(--body-2-line-height)] tracking-[var(--body-2-letter-spacing)] text-text [font-style:var(--body-2-font-style)]">
-            Pellentesque nibh donec senectus fusce in varius a. Egestas nisl
-            proin libero ornare mauris eget. Massa sed suspendisse at velit sed
-            eget diam sagittis cursus. Vulputate ullamcorper malesuada ac.
+            Náš tým tvoří zkušení profesionálové, kteří si poradí s jakoukoli výzvou. Každý člen týmu je certifikovaný a pravidelně proškolovaný.
           </p>
         </header>
         <div className="mt-[60px] grid w-full grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3 xl:gap-6">
